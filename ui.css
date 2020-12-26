@@ -1,0 +1,119 @@
+#OpBots {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 550px;
+  left: 50%;
+  z-index: 20;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  height: 50px !important;
+  background-color: rgba(33, 33, 33, 0.8);
+  ;
+  box-sizing: border-box;
+  pointer-event: none;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
+#OpBots .oplogo {
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 140px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#OpBots .serverStatus {
+  display: inline-block;
+  width: 390px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 1px;
+}
+
+#OpBots .serverStatus p {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  display: block;
+  height: 38px;
+  margin-top: 5px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 16px;
+  padding-top: 4px;
+  box-sizing: border-box;
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+}
+
+#OpBots .opcontentc {
+  display: inline-block;
+  width: 100px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 1px;
+}
+
+
+#OpBots .opcontentc p {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  display: block;
+  height: 38px;
+  margin-top: 5px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 16px;
+  padding-top: 4px;
+  box-sizing: border-box;
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+}
+
+#OpBots p .opsmall {
+  font-size: 12px;
+  display: block;
+}
+
+#OpBots .statusInfo {
+  left: 150px;
+}
+
+#OpBots .botsCounter {
+  width: 140px;
+  left: 150px;
+}
+
+#OpBots .botMod {
+  width: 110px;
+  left: 293px;
+}
+
+#OpBots #opbot_load {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  width: 0%;
+  height: 2px;
+  background-color: #00ff00;
+  display: block;
+  border-radius: 4px;
+  -webkit-transition: width 2s;
+  -moz-transition: width 2s;
+  -o-transition: width 2s;
+  transition: width 2s;
+}
+
+#OpBots .opactive p {
+  background-color: rgba(0, 255, 0, 0.3) !important;
+}

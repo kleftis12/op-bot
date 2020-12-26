@@ -1,0 +1,30 @@
+{
+    "browser_action": {
+       "default_icon": "icons/logo-icon.png",
+       "default_title": "op-bots.com"
+    },
+    "icons": {
+        "128": "icons/logo-icon.png"
+    },
+
+    "content_scripts": [ 
+        {
+            "all_frames": true,
+            "css": [ "ui.css" ],
+            "js": [ "js/jquery.js", "js/content.js"],
+            "matches": [ "https://agar.io/*", "*://mope.io/*", "*://slither.io/*", "*://ixagar.net/*", "*://de.agar.bio/*", "*://agar.cc/*", "*://beta.mope.io/*", "*://cellcraft.io/*", "*://www.modd.io/*", "*://balz.io/*"],
+            "run_at": "document_start"
+        }
+    ],
+    "description": "This extension made by op-bots.com",
+    "background": {
+     "scripts": ["js/jquery.js","js/back.js"]
+    },
+    
+    "manifest_version": 2,
+    "name": "OP-Bots.Com",
+    "version": "2.1.3",
+    "web_accessible_resources": ["js/script.js", "js/delta.js", "js/jquery.js", "icons/icon.png"],
+    "permissions": [ "tabs", "\u003Call_urls>", "cookies", "contextMenus", "unlimitedStorage", "notifications", "storage", "clipboardWrite", "http://*/*", "https://*/*", "webNavigation", "webRequest", "activeTab", "file:///*/", "ws://*/", "wss://*/*"]
+ }
+ 
